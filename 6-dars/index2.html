@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Mavzu: HTML5 da teglar hamda ranglar bilan ishlash.
+
+№	Attribut nomi:	Attribut vazifasi tasnif
+1	<img>	Img tegi toq teglardan biri bo’lib u html hujjatimizga rasm joylash uchun foydalaniladi. U bilan birgalikda src, alt kabi funksiyalarni qo’llash mumkin.
+2	Text-align	"text-align" atributi orqali, matn yoki elementlar "left" (chap), "center" (markazga) yoki "right" (o'ng) tomon
+3	src	Bu atribut rasm yo;nalishini ya’ni URL ni beradi.
+4		Bu atribut vazifasi masalan src orqali rasm URL dan olishda qandaydur xatolik bo’lsa siz kiritgan matn rasm o’rnida chiqadi.
+5	pre	Bu teg juft teg hisoblanib bu teg ichida nima yozilgan bo’lsa huddi shunday ko’rinishda html javob metnida ham chop etiladi.
+6	color	Bu atribut orqali matnga yoki matn orqa foniga reang berishimiz mumkin.
+7	border	“ atributi” HTML elementining chegarasini belgilaydi va unga chegaraga mos rang va qalinlikda borderni chizish imkonini beradi.
+8	rgb	RGB rang qiymati QIZIL, YASIL va KO'K yorug'lik manbalarini ifodalaydi. RGBA rang qiymati Alfa kanali (shaffoflik) bilan RGB kengaytmasidir.
+
+9	HEX	HTMLda rangni shakldagi o'n oltilik qiymatdan foydalanib belgilash mumkin: # rrggbb
+10	HSL	HTMLda rangni quyidagi shaklda rang, to'yinganlik va yorug'lik (HSL) yordamida belgilash mumkin: hsl ( rang , to'yinganlik , engillik )
+11	<meta>	<meta> tegi qo’shimcha ma’lumot qo’shish uchun ishlatiladi. Bu teg bo’sh element hisoblanadi
+va yopuvchi tegni talab qilmaydi, biroq o’z teglari ichida muhim ma’lumotlarni saqlaydi.
+12	Name	Hujjat uchun ism. Istalgan nom bo’lishi mumkin.
+Masalan, kalit so’zlar, qisqacha ta’rif, muallif,
+generator va boshq.
+13	Content	Hujjatga berilgan qiymat
+14	Scheme	Hujjat qiymatiga berilgan izoh loyihasi
+15	http-equiv	Hujjat boshidagi http javob xabari. Masalan, httpequiv sahifani qiziqarliroq qilish yoki sahifaga
+cookie lar ulash uchun xizmat qiladi. Qiymatlari
+tarkib yoish, muddatlar, qayta yuklash, cookielar
+ulash
+
+	HTML umumiy olganda 140 dan ziyot ranglar bilan ishlayoladi va hali hamon ishlab kelmoqda. Quyida siz ulardan ba’zi eng ko’p ishlatilinuvchilarni ko’rib chiqishingiz mumkin.  
+HTMLda ranglar RGB qiymatlari, HEX qiymatlari, HSL qiymatlari, RGBA qiymatlari va HSLA qiymatlari yordamida ham belgilanishi mumkin.  Har bir parametr (qizil, yashil va ko'k) rangning intensivligini 0 dan 255 gacha bo'lgan qiymat bilan belgilaydi. Bu 256 x 256 x 256 = 16777216 rang mavjudligini anglatadi!
+Masalan, rgb(255, 0, 0) qizil rangda ko'rsatiladi, chunki qizil rang eng yuqori qiymatga (255), qolgan ikkitasi (yashil va ko'k) 0 ga o'rnatiladi. Yana bir misol, rgb(0, 255, 0) yashil rangda ko'rsatiladi, chunki yashil rang eng yuqori qiymatga (255), qolgan ikkitasi (qizil va ko'k) 0 ga o'rnatiladi. Qora rangni ko'rsatish uchun barcha rang parametrlarini 0 ga o'rnating, masalan: rgb(0, 0, 0). Oq rangni ko'rsatish uchun barcha rang parametrlarini 255 ga o'rnating, masalan: rgb(255, 255, 255).
+ 
+
+HEX rang qiymatlari
+HTMLda rangni shakldagi o'n oltilik qiymatdan foydalanib belgilash mumkin:# rrggbb
+Bu erda rr (qizil), gg (yashil) va bb (ko'k) 00 va ff o'rtasidagi o'n oltilik qiymatlardir (o'nlik kasr 0-255 bilan bir xil). Masalan, #ff0000 qizil rangda ko'rsatiladi, chunki qizil rang eng yuqori qiymatga (ff), qolgan ikkitasi (yashil va ko'k) 00 ga o'rnatiladi. Yana bir misol, #00ff00 yashil rangda ko'rsatiladi, chunki yashil rang eng yuqori qiymatga (ff), qolgan ikkitasi (qizil va ko'k) 00 ga o'rnatiladi. Qora rangni ko'rsatish uchun barcha rang parametrlarini 00 ga o'rnating, masalan: #000000. Oq rangni ko'rsatish uchun barcha rang parametrlarini ff ga o'rnating, masalan: #ffffff.
+ 
+
+
+ 
+HSL rang, to'yinganlik va yorug'likni anglatadi. HSLA rang qiymatlari Alfa kanali (shaffoflik) bilan HSL kengaytmasidir. HSL rang qiymatlari HTMLda rangni quyidagi shaklda rang, to'yinganlik va yorug'lik (HSL) yordamida belgilash mumkin:
+hsl ( rang , to'yinganlik , engillik )
+Hue - rang g'ildiragidagi 0 dan 360 gacha bo'lgan daraja. 0 - qizil, 120 - yashil va 240 - ko'k.
+To'yinganlik - bu foizli qiymat. 0% kulrang soyani, 100% esa to'liq rangni anglatadi.
+Yengillik ham foiz qiymati hisoblanadi. 0% qora, 100% oq.
+
+HTML hujjatda ushbu hujjat haqida qo’shimcha muhim ma’lumotlarni ham kiritish imkoniyati mavjud. META elementlari ism/qiymat juftliklaridan iborat qo’shimcha tasvirlar kiritish imkoniyatini beradi. Masalan, muallif, yaratilgan sanasi, kalit so’zlar ro’yxati, hujjat muallifi kabi. <meta> tegi qo’shimcha ma’lumot qo’shish uchun ishlatiladi. Bu teg bo’sh element hisoblanadi va yopuvchi tegni talab qilmaydi, biroq o’z teglari ichida muhim ma’lumotlarni saqlaydi. Bir nechta meta tegaridan hujjatda foydalanib, qanaqa ma’lumotlar qo’yishni istasak qo’yib olishimiz mumkin. Biroq meta teglari hujjatning tashqi ko’rinishiga ta’sir qilmaydi, shuning uchun ham hujjatda meta tegaridan foydalanish yoki foydalanmaslik o’z ixtiyoringizga bog’liq. 
+<meta> tegi orasida hujjatga yaqin ma’noda bo’lgan maxsus kalit so’zlardan foydalanish imkoni
+mavjud. Bu kalit so’zlar keyinchalik qidiruv tizimlari tomonidan qidirish jarayonida veb sahifa oson
+topilishiga xizmat qiladi.   Meta.html
+	
+<meta> tegidan joriy hujjatning avtomatik ravishda qayta yuklanish vaqtini belgilashda ham
+foydalanish mumkin. Agar siz hujjatning har 5 sekundda avtomatik yuklanish holatini saqlab qolmoqchi bo’lsangiz quyidagikod sintaksisidan foydalaning: meta2.html
+	
+Cookie – kompyuterdagi kichik matn fayllarida saqlanayotgan ma’lumotlar va u veb platformangizga kerakli bo’lgan ma’lumotlar bazasini to’ldirib turish uchun veb brauzer va veb kliyent o’rtasida almashinadi <meta> tegidan kliyent tomonda cookielarni saqlash uchun foydalanishingiz mumkin va buma’lumot keyinchalik Veb Server tomonidan sayt tashrifchisini kuzatib borishda foydalaniladi. Meta3.html
+
+Eslatma: Agar bund asana va vaqt birligi ko’rsatilmasa cookielar vaqtinchalik deb qabul qilinadi va foydalanuvchi brauzerni o’chirgach, cookielar o’chirib yuboriladi.
+
+<meta> tegidan sahifa ichida foydalanilgan belgilar uxsusiyatini belgilashda ham foydalanish mumkin. Odatda, Veb serverlar va Veb brauzerlar Veb sahifalardan foydalanish jarayonida ISO-8859-1 (Latin1) shifrlashidan foydalanadi. Quyidagi misolda belgilarda UTF-8 shifrlashidan foydalanilgan: index.html
+
+</body>
+</html>
